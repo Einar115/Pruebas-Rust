@@ -1,4 +1,4 @@
-//perimetro y area de un circulo
+//Perimetro y area de un circulo
 
 fn main(){
     const PI: f32 = 3.1416;
