@@ -12,35 +12,25 @@ fn main(){
     println!("\nElementos del vector mas 10:\n");
     for i in &mut vector {
         *i +=10;
-    }
-    
-    for i in &vector {
         println!("{}", i);
     }
 
     println!("\nElementos del vector menos 10:\n");
     for i in &mut vector {
         *i -=10;
-    }
-    
-    for i in &vector {
         println!("{}", i);
     }
+    
     println!("\nElementos del vector multiplicados por 10:\n");
     for i in &mut vector {
         *i *=10;
-    }
-    
-    for i in &vector {
         println!("{}", i);
     }
 
-    println!("\nElementos del vector divididos entre 10;\n");
+    println!("\nElementos del vector divididos entre 10:\n");
     for i in &mut vector {
         *i /=10;
-    }
-    
-    for i in &vector {
         println!("{}", i);
     }
+
 }
